@@ -34,7 +34,6 @@ body {
 }
 
 .back {
-    background-color: #4CAF50;
     transform: rotateY(180deg); 
 }
 

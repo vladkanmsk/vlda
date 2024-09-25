@@ -6,6 +6,7 @@ display: flex;
 gap: 2px;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 }
 .alphabetLetter{
     border: 1px solid #000;

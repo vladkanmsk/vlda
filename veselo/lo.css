@@ -1,13 +1,45 @@
+body{
+    background-color: white;
+    height:1000px;
+}
+.chelbox{
+    background-color: white;
+    height:500px;
+}
 .alphabet_box{
     width:100%;
-height:50px;
+height:100px;
 background-color: aliceblue;
 display: flex;
 gap: 2px;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+margin-top: 500px;
 }
 .alphabetLetter{
     border: 1px solid #000;
+    width:40px;
+    text-align: center;
+}
+.vertical{
+    border-left: 10px solid black; 
+    height: 500px; 
+    transform: rotateY(80deg) 
+}
+.gorizontNIZ{ 
+    border: 2px solid black; 
+    width: 50%; 
+    margin: 20px;
+}
+.hide_palka_3{
+    border-left: 2px solid black; 
+    height: 30px; 
+    transform: rotateY(180deg)
+}
+.hide_palka_4{ 
+    border: 2px solid black; 
+    width: 50%; 
+    margin: 20px;
+    margin-top: -70px;
 }

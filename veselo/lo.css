@@ -23,23 +23,11 @@ margin-top: 500px;
     text-align: center;
 }
 .vertical{
-    border-left: 10px solid black; 
-    height: 500px; 
-    transform: rotateY(80deg) 
+    border: 1px ;
+width: 100px;
 }
 .gorizontNIZ{ 
     border: 2px solid black; 
     width: 50%; 
     margin: 20px;
-}
-.hide_palka_3{
-    border-left: 2px solid black; 
-    height: 30px; 
-    transform: rotateY(180deg)
-}
-.hide_palka_4{ 
-    border: 2px solid black; 
-    width: 50%; 
-    margin: 20px;
-    margin-top: -70px;
 }

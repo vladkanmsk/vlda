@@ -22,14 +22,20 @@ margin-top: 500px;
     width:40px;
     text-align: center;
 }
-.vertical{
-    border: 1px solid #000;
-    height:400px;
-width: 0px;
-justify-content: center;
+.word{
+    display: flex;
+    justify-content: center;
 }
-.gorizontNIZ{ 
-    border: 2px solid black; 
-    width: 50%; 
-    margin: 20px;
+.wordbox{
+border: 2px solid black;
+height: 100px;
+}
+.box{
+    background-color: indianred;
+    height: 100px;
+}
+.let{
+    margin: 10px;
+    border:2px solid black;
+    padding: 10px;
 }

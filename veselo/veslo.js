@@ -7,4 +7,18 @@ for (let i = 0; i< alphabet.length; i++) {
 alphabetBox.appendChild(div);
 div.classList.add('alphabetLetter')
 div.innerHTML  = alphabet[i];
+div.addEventListener('click', () =>{
+    console.log(div)
+})
+}
+
+const wordBox = document.querySelector('.word')
+const wordArray = ["ГУСЬ", "БОБР", "НАЙКПРО", "КУРВА", "ЩОВЕЛЬ"];
+let randomindex = Math.floor( Math.random()*5)
+let WORD = wordArray [randomindex];
+for (let i = 0; i < WORD.length; i++) {
+    const div = document.createElement ("div");
+wordBox.appendChild(div);
+div.classList.add('let')
+div.innerHTML  = WORD[i];
 }

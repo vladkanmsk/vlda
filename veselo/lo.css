@@ -23,8 +23,10 @@ margin-top: 500px;
     text-align: center;
 }
 .vertical{
-    border: 1px ;
-width: 100px;
+    border: 1px solid #000;
+    height:400px;
+width: 0px;
+justify-content: center;
 }
 .gorizontNIZ{ 
     border: 2px solid black; 

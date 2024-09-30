@@ -39,3 +39,12 @@ height: 100px;
     border:2px solid black;
     padding: 10px;
 }
+.hide_palka_1{
+        width: 100px; 
+        height: 2px; 
+        background-color: black; 
+        margin: 50px; 
+        left: 400px;
+        justify-content: center;
+      }
+      

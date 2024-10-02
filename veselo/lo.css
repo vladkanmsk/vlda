@@ -40,11 +40,25 @@ height: 100px;
     padding: 10px;
 }
 .hide_palka_1{
-        width: 100px; 
-        height: 2px; 
-        background-color: black; 
-        margin: 50px; 
-        left: 400px;
-        justify-content: center;
-      }
-      
+    width: 2px; 
+    height: 350px;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide_palka_2{
+    width: 25%;
+            height: 2px; 
+            background-color: black; 
+            margin: 20px 0;
+}   
+.hide_palka_3{
+    width: 25%;
+    height: 2px; 
+    background-color: black; 
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

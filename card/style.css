@@ -1,17 +1,15 @@
-body{
-    background-color: white;
+.block{
+    width: 1200px;
+    height: 120px;
+    background-color: rgb(185, 185, 208);
+    margin: auto;
+    margin-top: 10px;
+border-radius: 10px;
+padding: 20px;
 }
-.card{
-    width: 240px;
-height: 386px;
-background-color:gray
-}
-.card_image{
-    width: 240px;
-height: 247px;
-}
-.photo{
-    width: 9.2px;
-height: 8.75px;
-display: flex;
+.leg{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: blue;
 }

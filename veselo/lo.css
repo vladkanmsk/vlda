@@ -114,4 +114,9 @@ height: 100px;
         background-color: black;
         margin-left: -70px;
     }
-
+.none{
+    display: none;
+}
+.stick{
+    opacity: 0.1;
+}

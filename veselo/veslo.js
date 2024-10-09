@@ -9,7 +9,8 @@ for (let i = 0; i< alphabet.length; i++) {
     // alphabetBox.appendChild(div);
     // div.classList.add('alphabetLetter')
     // div.textContent  = alphabet[i];
-    creatingBlock(alphabetBox, alphabet,"alphabetLetter", i )
+    creatingBlock(alphabetBox, alphabet,"alphabetLetter","s", i ) 
+
     //div.addEventListener('click', () =>{
 //    console.log(div)
 //})
@@ -24,12 +25,13 @@ for (let i = 0; i < WORD.length; i++) {
     //wordBox.appendChild(div);
     //div.classList.add('let')
     //div.textContent  = WORD[i];
-    creatingBlock(wordBox, WORD, "let", i)
+    creatingBlock(wordBox, WORD, "let", "none", i)
 }
-function creatingBlock(parentBlock, slovo, newClass, i){
+function creatingBlock(parentBlock, slovo, newClass, secondClass, i){
     const div = document.createElement ("div");
     parentBlock.appendChild(div);
     div.classList.add(newClass)
+    div.classList.add(secondClass)
     div.textContent  = slovo[i];
 }
 
@@ -39,7 +41,16 @@ alpabetButtons.forEach((button) => {
 button.addEventListener("click", ()=>{
     console.log(button.textContent)
     console.log(WORD.indexOf(button.textContent))
+    if (WORD.indexOf (button.textContent) == -1)
+        console.log("pomilka!")
+    misstakes++
+    console.log(misstakes)
  });
 });
 
+let misstakes = 0
 
+
+
+const stick = document.querySelectorAll(".stick")
+console.log(stick)

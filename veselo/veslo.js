@@ -1,4 +1,12 @@
 
+let misstakes = 0
+
+
+
+const stick = document.querySelectorAll(".stick")
+console.log(stick)
+console.log(misstakes)
+
 
 const alphabet = ["А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я"]
 const alphabetBox = document.querySelector('.alphabet_box');
@@ -45,12 +53,6 @@ button.addEventListener("click", ()=>{
         console.log("pomilka!")
     misstakes++
     console.log(misstakes)
+    stick[misstakes].classList.remove('stick')
  });
 });
-
-let misstakes = 0
-
-
-
-const stick = document.querySelectorAll(".stick")
-console.log(stick)

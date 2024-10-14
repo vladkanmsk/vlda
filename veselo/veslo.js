@@ -49,10 +49,15 @@ alpabetButtons.forEach((button) => {
 button.addEventListener("click", ()=>{
     console.log(button.textContent)
     console.log(WORD.indexOf(button.textContent))
-    if (WORD.indexOf (button.textContent) == -1)
+    if (WORD.indexOf (button.textContent) == -1){
         console.log("pomilka!")
+    stick[misstakes].classList.remove('stick')
     misstakes++
     console.log(misstakes)
-    stick[misstakes].classList.remove('stick')
+}else{
+        console.log('asas')
+        wordLetters[WORD.indexOf (button.textContent)]. classList.remove ("none")
+    }
  });
 });
+const wordLetters = document.querySelectorAll(".let")

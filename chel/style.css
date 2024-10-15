@@ -1,0 +1,64 @@
+/* style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .head {
+    width: 50px;
+    height: 50px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+  }
+  
+  .body {
+    width: 20px;
+    height: 100px;
+    background-color: #3498db;
+    position: relative;
+    top: -10px;
+  }
+  
+  .left-arm, .right-arm {
+    width: 20px;
+    height: 80px;
+    background-color: #e74c3c;
+    position: absolute;
+    top: 50px;
+  }
+  
+  .left-arm {
+    transform: rotate(45deg);
+    left: -40px;
+  }
+  
+  .right-arm {
+    transform: rotate(-45deg);
+    right: -40px;
+  }
+  
+  .left-leg, .right-leg {
+    width: 20px;
+    height: 100px;
+    background-color: #2ecc71;
+    position: absolute;
+    top: 150px;
+  }
+  
+  .left-leg {
+    transform: rotate(15deg);
+    left: -10px;
+  }
+  
+  .right-leg {
+    transform: rotate(-15deg);
+    right: -10px;
+  }
+  

@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+.card{
+    width: 240px;
+height: 386px;
+background-color:gray
+}
+.card_image{
+    width: 240px;
+height: 247px;
+}
+.photo{
+    width: 9.2px;
+height: 8.75px;
+display: flex;
+}

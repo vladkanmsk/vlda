@@ -43,6 +43,7 @@ function creatingBlock(parentBlock, slovo, newClass, secondClass, i){
     div.textContent  = slovo[i];
 }
 
+const wordLetters = document.querySelectorAll(".let")
 
 const alpabetButtons = document.querySelectorAll(".alphabetLetter")
 alpabetButtons.forEach((button) => {
@@ -55,11 +56,16 @@ button.addEventListener("click", ()=>{
     misstakes++
     console.log(misstakes)
 }else{
-        console.log('asas')
-        wordLetters[WORD.indexOf (button.textContent)]. classList.remove ("none")
+      
+            FLIW(WORD, button.textContent)
     }
+        
  });
 });
-const wordLetters = document.querySelectorAll(".let")
-
-
+//find letters in word
+function FLIW(array, letterToFind){
+    console.log(44)
+for (let i = 0; i < array.length; i++) {
+if (array[i] == letterToFind){
+wordLetters[i].classList.remove("none")
+}}}

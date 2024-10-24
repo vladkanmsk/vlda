@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: white;
 }
@@ -14,4 +15,20 @@ height: 247px;
     width: 9.2px;
 height: 8.75px;
 display: flex;
+=======
+.block{
+    width: 1200px;
+    height: 120px;
+    background-color: rgb(185, 185, 208);
+    margin: auto;
+    margin-top: 10px;
+border-radius: 10px;
+padding: 20px;
+}
+.leg{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: blue;
+>>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
 }

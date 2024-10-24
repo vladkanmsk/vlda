@@ -1,4 +1,3 @@
-
 let misstakes = 0
 
 
@@ -43,25 +42,13 @@ function creatingBlock(parentBlock, slovo, newClass, secondClass, i){
     div.textContent  = slovo[i];
 }
 
-<<<<<<< HEAD
-=======
 const wordLetters = document.querySelectorAll(".let")
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
 
 const alpabetButtons = document.querySelectorAll(".alphabetLetter")
 alpabetButtons.forEach((button) => {
 button.addEventListener("click", ()=>{
     console.log(button.textContent)
     console.log(WORD.indexOf(button.textContent))
-<<<<<<< HEAD
-    if (WORD.indexOf (button.textContent) == -1)
-        console.log("pomilka!")
-    misstakes++
-    console.log(misstakes)
-    stick[misstakes].classList.remove('stick')
- });
-});
-=======
     if (WORD.indexOf (button.textContent) == -1){
         console.log("pomilka!")
     stick[misstakes].classList.remove('stick')
@@ -81,4 +68,3 @@ for (let i = 0; i < array.length; i++) {
 if (array[i] == letterToFind){
 wordLetters[i].classList.remove("none")
 }}}
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94

@@ -25,6 +25,7 @@ margin-top: 500px;
 .word{
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 .wordbox{
 border: 2px solid black;
@@ -119,4 +120,9 @@ height: 100px;
 }
 .stick{
     opacity: 0.1;
+}
+.cont{
+    padding: 4px;
+    border-bottom: #000 2px solid;
+    gap: 10px;
 }

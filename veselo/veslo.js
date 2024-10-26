@@ -17,22 +17,23 @@ for (let i = 0; i< alphabet.length; i++) {
     // div.classList.add('alphabetLetter')
     // div.textContent  = alphabet[i];
     creatingBlock(alphabetBox, alphabet,"alphabetLetter","s", i ) 
-
+    
     //div.addEventListener('click', () =>{
-//    console.log(div)
-//})
-}
-
-const wordBox = document.querySelector('.word')
-const wordArray = ["ГУСЬ", "БОБР", "НАЙКПРО", "КУРВА", "ЩОВЕЛЬ"];
-let randomindex = Math.floor( Math.random()*5)
-let WORD = wordArray [randomindex];
-for (let i = 0; i < WORD.length; i++) {
-    //const div = document.createElement ("div");
-    //wordBox.appendChild(div);
-    //div.classList.add('let')
-    //div.textContent  = WORD[i];
-    creatingBlock(wordBox, WORD, "let", "none", i)
+        //    console.log(div)
+        //})
+    }
+    
+    const wordBox = document.querySelector('.word')
+    const wordArray = ["ГУСЬ", "БОБР", "НАЙКПРО", "КУРВА", "ЩОВЕЛЬ"];
+    let randomindex = Math.floor( Math.random()*5)
+    let WORD = wordArray [randomindex];
+    for (let i = 0; i < WORD.length; i++) {
+        //const div = document.createElement ("div");
+        //wordBox.appendChild(div);
+        //div.classList.add('let')
+        //div.textContent  = WORD[i];
+        creatingBlock(wordBox, WORD, "let", "none", i)
+        creatingBlock(wordBox, "", "cont", "ooo", i)
 }
 function creatingBlock(parentBlock, slovo, newClass, secondClass, i){
     const div = document.createElement ("div");
@@ -67,4 +68,7 @@ function FLIW(array, letterToFind){
 for (let i = 0; i < array.length; i++) {
 if (array[i] == letterToFind){
 wordLetters[i].classList.remove("none")
+wordLetters[i].nextElementSibling.classList.add("none")
 }}}
+
+

@@ -35,6 +35,7 @@ for (let i = 0; i< alphabet.length; i++) {
         creatingBlock(wordBox, WORD, "let", "none", i)
         creatingBlock(wordBox, "", "cont", "ooo", i)
 }
+//счетчик ошибок
 function creatingBlock(parentBlock, slovo, newClass, secondClass, i){
     const div = document.createElement ("div");
     parentBlock.appendChild(div);

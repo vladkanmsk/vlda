@@ -56,6 +56,9 @@ button.addEventListener("click", ()=>{
     stick[misstakes].classList.remove('stick')
     misstakes++
     console.log(misstakes)
+    if( misstakes >= 10 ){
+        pop_up.classList.remove('none')
+    }
 }else{
       
             FLIW(WORD, button.textContent)
@@ -72,4 +75,10 @@ wordLetters[i].classList.remove("none")
 wordLetters[i].nextElementSibling.classList.add("none")
 }}}
 
+const pop_up = document.querySelector(".pop_up")
 
+
+const exitButton = document.querySelector("#exitButton")
+exitButton.addEventListener("click", ()=>{
+    location.reload();
+})

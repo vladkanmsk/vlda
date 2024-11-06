@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,41 +5,24 @@
 }
 
 .card-container {
-=======
-body {
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-<<<<<<< HEAD
     background-color: #f0f0f0;
-=======
-    background-color:white;
-}
-
-.card-container {
-    display: flex;
-    gap: 20px;
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
 }
 
 .card {
     width: 200px;
     height: 300px;
-<<<<<<< HEAD
     perspective: 1000px; /* Для создания 3D-эффекта */
     cursor: pointer;
-=======
-    perspective: 1000px;
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
 }
 
 .card div {
     position: absolute;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
     backface-visibility: hidden; /* Скрываем обратную сторону */
     display: flex;
     justify-content: center;
@@ -54,23 +36,10 @@ body {
 
 .front {
     background-color: #fff;
-=======
-    backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    transition: transform 0.6s;
-    background-color: white;
-}
-.front {
-    background-color: white;
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
 }
 
 .back {
     background-color: #4CAF50;
-<<<<<<< HEAD
     transform: rotateY(180deg); /* Прячем заднюю сторону */
 }
 
@@ -80,15 +49,4 @@ body {
 
 .card.flipped .back {
     transform: rotateY(0deg); /* Показываем заднюю сторону */
-=======
-    transform: rotateY(180deg); 
-}
-
-.card.flipped .front {
-    transform: rotateY(180deg);
-}
-
-.card.flipped .back {
-    transform: rotateY(0deg); 
->>>>>>> dfe92da39d295fedcfc4a58f3ca11273a3f0be94
 }

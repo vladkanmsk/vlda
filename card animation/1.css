@@ -10,15 +10,12 @@
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-<<<<<<< HEAD
-=======
     background-color:white;
 }
 
 .card-container {
     display: flex;
     gap: 20px;
->>>>>>> 28c14a75d943212d25bd4a3655c1773a13693ee6
 }
 
 .card {
@@ -26,10 +23,7 @@
     height: 300px;
     perspective: 1000px; /* Для создания 3D-эффекта */
     cursor: pointer;
-<<<<<<< HEAD
-=======
     perspective: 1000px;
->>>>>>> 28c14a75d943212d25bd4a3655c1773a13693ee6
 }
 
 .card div {
@@ -49,8 +43,6 @@
 
 .front {
     background-color: #fff;
-<<<<<<< HEAD
-=======
     backface-visibility: hidden;
     display: flex;
     justify-content: center;
@@ -61,16 +53,12 @@
 }
 .front {
     background-color: white;
->>>>>>> 28c14a75d943212d25bd4a3655c1773a13693ee6
 }
 
 .back {
     background-color: #4CAF50;
-<<<<<<< HEAD
     transform: rotateY(180deg); /* Прячем заднюю сторону */
-=======
     transform: rotateY(180deg); 
->>>>>>> 28c14a75d943212d25bd4a3655c1773a13693ee6
 }
 
 .card.flipped .front {
@@ -78,9 +66,7 @@
 }
 
 .card.flipped .back {
-<<<<<<< HEAD
     transform: rotateY(0deg); /* Показываем заднюю сторону */
-=======
     transform: rotateY(0deg); 
     transform: rotateY(180deg); 
 }
@@ -91,5 +77,4 @@
 
 .card.flipped .back {
     transform: rotateY(0deg); 
->>>>>>> 28c14a75d943212d25bd4a3655c1773a13693ee6
 }

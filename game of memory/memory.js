@@ -12,7 +12,7 @@ cards.forEach((card)=>{
 console.log("b" + "a" + + "a")
 
 let amount = 8 
-const wordsForCard = ["A", "B", "C", "D"]
+const wordsForCard = ["🌈", "🌹", "😁", "🎈"]
 
 
 function geterateCards(amount, words ){
@@ -36,6 +36,7 @@ function geterateCards(amount, words ){
             newCard.addEventListener('click', ()=>{
                 newCard.querySelector('.card__front').classList.toggle("active__front");
                 newCard.querySelector('.card__back').classList.toggle("active__back");
+                checkCards(newCard)
             })}}
         const cards = [...gameboard.querySelectorAll(".card")]
         cards.sort(() => Math.random()- 0.5 )
@@ -45,3 +46,14 @@ function geterateCards(amount, words ){
 geterateCards(amount, wordsForCard)
 
 
+function checkCards(mainCard){
+    console.log(mainCard)
+const cards = document.querySelectorAll('.active__back')
+    const card = mainCard.querySelector('.card__back')
+ console.log(card.textContent)
+ if(cards.length > 1){
+cards.forEach(thisCard =>{
+    thisCard.classList.toggle("active__back")
+})
+ }
+}

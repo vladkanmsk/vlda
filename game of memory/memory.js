@@ -1,9 +1,10 @@
-const cards = document.querySelectorAll('.card');
+const cardsBlocks = document.querySelectorAll('.card');
 const gameboard = document.querySelector('.gameboard');
+const cards = []
 // querySelectorAll - ищет
-console.log(cards);
+console.log(cardsBlocks);
 // forEach - что то для каждого
-cards.forEach((card)=>{
+cardsBlocks.forEach((card)=>{
     card.addEventListener('click', ()=>{
         card.querySelector('.card__front').classList.toggle("active__front");
         card.querySelector('.card__back').classList.toggle("active__back");
@@ -48,12 +49,27 @@ geterateCards(amount, wordsForCard)
 
 function checkCards(mainCard){
     console.log(mainCard)
-const cards = document.querySelectorAll('.active__back')
-    const card = mainCard.querySelector('.card__back')
- console.log(card.textContent)
- if(cards.length > 1){
-cards.forEach(thisCard =>{
-    thisCard.classList.toggle("active__back")
-})
- }
+cards.push(mainCard)
+setTimeout(()=>{
+    if (cards.length == 2) {
+        if(cards[0].textContent== cards[1].textContent){
+           cards[0].remove()
+           cards[1].remove()
+        }else {
+            cards.forEach(thisCard =>{
+                console.log("попытка закрыть")
+              thisCard.querySelector(".card__front").classList.remove("active__front")
+              thisCard.querySelector(".card__back").classList.remove("active__back")
+            })
+    
+        }
+        cards.lenght = 0
+    }
+
+},1000)
+ //   const card = mainCard.querySelector('.card__back')
+ //console.log(card.textContent)
+//console.log(cards[0])
+//console.log(cards[1])
+// }
 }

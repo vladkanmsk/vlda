@@ -4,19 +4,19 @@ const cards = []
 // querySelectorAll - ищет
 console.log(cardsBlocks);
 // forEach - что то для каждого
-cardsBlocks.forEach((card)=>{
-    card.addEventListener('click', ()=>{
-        card.querySelector('.card__front').classList.toggle("active__front");
-        card.querySelector('.card__back').classList.toggle("active__back");
-    });
-});
+//cardsBlocks.forEach((card)=>{
+  //  card.addEventListener('click', ()=>{
+    //    card.querySelector('.card__front').classList.toggle("active__front");
+      //  card.querySelector('.card__back').classList.toggle("active__back");
+    //});
+//});
 console.log("b" + "a" + + "a")
 
 let amount = 8 
 const wordsForCard = ["🌈", "🌹", "😁", "🎈"]
 
 
-function geterateCards(amount, words ){
+function generateCards(amount, words ){
     for (let j = 0; j < words.length; j++) {
         for (let i = 0; i < 2; i++) {
             const newCard = document.createElement('div')
@@ -44,7 +44,7 @@ function geterateCards(amount, words ){
     .map(card => gameboard.appendChild (card))
         }
 
-geterateCards(amount, wordsForCard)
+generateCards(amount, wordsForCard)
 
 
 function checkCards(mainCard){

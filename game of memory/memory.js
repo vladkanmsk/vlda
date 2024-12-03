@@ -4,12 +4,12 @@ const cards = []
 // querySelectorAll - ищет
 console.log(cardsBlocks);
 // forEach - что то для каждого
-cardsBlocks.forEach((card)=>{
-    card.addEventListener('click', ()=>{
-        card.querySelector('.card__front').classList.toggle("active__front");
-        card.querySelector('.card__back').classList.toggle("active__back");
-    });
-});
+//cardsBlocks.forEach((card)=>{
+  //  card.addEventListener('click', ()=>{
+    //    card.querySelector('.card__front').classList.toggle("active__front");
+      //  card.querySelector('.card__back').classList.toggle("active__back");
+    //});
+//});
 console.log("b" + "a" + + "a")
 
 let amount = 8 

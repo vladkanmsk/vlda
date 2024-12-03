@@ -16,7 +16,7 @@ let amount = 8
 const wordsForCard = ["🌈", "🌹", "😁", "🎈"]
 
 
-function geterateCards(amount, words ){
+function generateCards(amount, words ){
     for (let j = 0; j < words.length; j++) {
         for (let i = 0; i < 2; i++) {
             const newCard = document.createElement('div')
@@ -44,7 +44,7 @@ function geterateCards(amount, words ){
     .map(card => gameboard.appendChild (card))
         }
 
-geterateCards(amount, wordsForCard)
+generateCards(amount, wordsForCard)
 
 
 function checkCards(mainCard){

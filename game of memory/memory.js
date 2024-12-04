@@ -13,6 +13,7 @@ console.log(cardsBlocks);
 console.log("b" + "a" + + "a")
 
 let amount = 8 
+let misstakes = 0
 const wordsForCard = ["🌈", "🌹", "😁", "🎈"]
 
 
@@ -61,9 +62,10 @@ setTimeout(()=>{
               thisCard.querySelector(".card__front").classList.remove("active__front")
               thisCard.querySelector(".card__back").classList.remove("active__back")
             })
-    
+    misstakes++
+    console.log(misstakes)
         }
-        cards.lenght = 0
+        cards.length = 0
     }
 
 },1000)

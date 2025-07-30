@@ -1,0 +1,17 @@
+
+.block{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border: 2px black solid;
+}
+.block > div{
+     height: 80px;
+     width: 80px;
+     background-color: pink;
+     margin: 10px;
+     font-size: 20px;
+     text-align: center;
+     transform: translateY(-180px);
+     transition: all 0.2s linear;
+}

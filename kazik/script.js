@@ -1,12 +1,16 @@
 const button = document.querySelector(".button")
+const balanceBlock = document.querySelector(".balance")
 let balance = 100
-
-button.addEventListener("click", () => {
-  let userStavka;
-  do {
-    userStavka = prompt(`Введите ставку (от 1 до ${balance}):`);
-    userStavka = Number(userStavka);
-  } while (isNaN(userStavka) || userStavka <= 0 || userStavka > balance);
-  balance = Math.round(balance - userStavka + userStavka * Math.random() * 2);
-  alert(`Баланс: ${balance}, ставка: ${userStavka}`);
-});
+button.addEventListener("click", ()=>{
+    console.log(button)
+    const userStavka = prompt('Введите ставку')
+    if (userStavka <= 0 || userStavka > balance) {
+        alert("Ставка повинна бути більша за 0 та в межах балансу")
+    }else if(isNaN(userStavka)){
+        alert('Введіть число, а не текст')
+    }else{
+        balance = Math.round(balance - userStavka + userStavka*Math.random()*2)
+        balanceBlock.textContent = balance
+       // alert(`Баланс: ${balance}, ставка: ${userStavka}`)
+    }   
+})

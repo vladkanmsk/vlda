@@ -69,8 +69,76 @@
 
 //1.2.4
 
-let a = "НОВЫЙ"
-let str = a.length
-if(str > 1){
-    console.log(a[a.length - 2])
-}
+// let a = "НОВЫЙ"
+// let str = a.length
+// if(str > 1){
+//     console.log(a[a.length - 2])
+// }
+
+//1.2.5
+
+// let num1 = 4535
+// let num2 = 45334
+// num1 = String(num1)
+// num2 = String(num2)
+// let lastLetter1 = num1[num1.lenght-1]
+// let lastLetter2 = num2[num2.lenght-1]
+// console.log(lastLetter2)
+// if(lastLetter1 == lastLetter2){
+// console.log("есть пробитие")
+// }
+// let firstLetter1 = num1[0]
+// let firstLetter2 = num2[0]
+// if(firstLetter1 == firstLetter2){
+// console.log("есть пробитие")
+// }
+
+//1.3.2
+
+// let num1 = 12
+// let num2 = 2
+// if(num1 % num2){
+//     console.log("нет")
+// }else{
+// console.log("да")
+// }
+
+//1.4.1
+
+// for (let i = 1; i < 101; i++) {
+//     console.log(i)
+// }
+
+//1.4.2
+
+// for (let i = -100; i < 1; i++) {
+//     console.log(i)
+// }
+
+//1.4.3
+
+// for (let i = 100; i > 0; i--) {
+//     console.log(i)
+// }
+
+//1.4.4
+
+// for (let i = 1; i < 101; i++) {
+//     if(!(i%2)){
+//         console.log(i)
+// }}
+
+//1.4.5
+
+// for (let i = 1; i < 101; i++) {
+//     if(!(i%3)){
+//         console.log(i)
+// }}
+
+//1.5.1
+
+let sum1 = 0
+ for (let i = 1; i < 101; i++){
+
+ }
+ console.log(sum)

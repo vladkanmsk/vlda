@@ -137,8 +137,41 @@
 
 //1.5.1
 
-let sum1 = 0
- for (let i = 1; i < 101; i++){
+// let sum = 0
+//  for (let i = 0; i <= 100; i++){
+//     sum = sum + i
+//  }
+//  console.log(sum)
 
- }
- console.log(sum)
+
+//1.5.2
+// let sum = 0
+//  for (let i = 0; i <= 100; i++){
+//     if(i%2==0){
+//         sum = sum + i
+// }}
+// console.log(sum)
+
+//1.5.4
+
+// let num1 = 23123123
+// let num2 = 7
+// let osta4a = num1%num2
+// console.log(osta4a)
+
+//1.5.5
+
+// let str = "krutoeslovo123"
+// for (let i = str.length-1; i >= 0 ; i--) {
+//     console.log(str[i])
+// }
+
+let str = "krutoeslovo123"
+let sum = 0
+for (let i = str.length; i >= 0 ; i--) {
+    if(str[i] == 'o'){
+        sum = sum + 1
+console.log()
+    }
+}
+console.log(sum)

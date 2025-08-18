@@ -166,13 +166,95 @@
 //     console.log(str[i])
 // }
 
-let str = "krutoeslovo123"
-let sum = 0
-for (let i = str.length; i >= 0 ; i--) {
-    if(str[i] == 'o'){
-        sum = sum + 1
-console.log()
-    }
-}
-console.log(sum)
+// let str = "krutoeslovo123"
+// let sum = 0
+// for (let i = str.length; i >= 0 ; i--) {
+//     if(str[i] == 'o'){
+//         sum = sum + 1
+// console.log()
+//     }
+// }
+// console.log(sum)
 
+//1.6.1
+
+// const arr = [1,2,3,4,5,6,7,8,9]
+// let sum = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     sum = sum + element*element
+//     console.log(sum)
+// }
+// console.log(sum)
+
+//1.6.2
+
+// const arr = [1,2,3,4,5,6,7,8,9]
+// let sum = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     sum += Math.sqrt(element)
+//     console.log(sum)
+// }
+// console.log(sum)
+
+//1.6.3
+
+// const array = [-5,12,-4,12,-23,43,5]
+// let sum = 0
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if(element > 0){
+//         sum += element
+//     }
+// }
+// console.log(sum)
+
+// 1.6.4
+// const array = [10,11,12,13,14,15,16,17,18,19,20]
+// let sum = 0
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if(element > 10 && element%2==0 && element < 20 ){
+//         sum += element
+//     }
+// }
+// console.log(sum)
+
+//1.7.1
+
+// let str = "abcde"
+// const arr = []
+// for (let i = 0; i < str.length; i++) {
+//     const element = str[i];
+//     arr.push(element)
+// }
+
+//1.7.2
+
+// let num = 12345
+// num = String(num)
+// const arr = []
+// for (let i = 0; i < num.length; i++) {
+//     const element = num[i];
+//     arr.push(Number(num[i]))
+    
+// }
+// console.log(arr)
+
+//1.7.3
+// let str = "slovo"
+// for (let i = str.length-1; i >= 0 ; i--) {
+//     console.log(str[i])
+// }
+
+//1.8.1
+
+const arr = []
+for (let i = 1; i < 11 ; i++) {
+    arr.push(i)
+    
+}
+console.log(arr)

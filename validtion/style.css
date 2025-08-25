@@ -1,0 +1,23 @@
+.glavniBlock{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    border: black solid 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    border-radius: 6px;
+}
+.regis{
+    width: 350px;
+    height: 70px;
+}
+.button{
+width: 350px;
+    height: 70px;
+    background-color: rgb(70, 126, 175);
+    border: black solid 2px;
+    border-radius: 6px;
+}

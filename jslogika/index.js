@@ -259,3 +259,56 @@
 // }
 // console.log(arr)
 
+
+//1.9.1
+
+// const arr = [
+//     "http://skhdgdfhf;.com",
+//      "fgdsfg.com",
+//       "difhgoisdhf.com",
+//        "http://youtube.com"
+// ]
+// const newArr = []
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (element.startsWith ("http://")) {
+//         console.log("robit")
+//         newArr.push(element)
+//     }
+// }
+// console.log(newArr)
+
+//1.9.2
+
+// const arr = [
+//     "http://skhdgdfhf;.com",
+//      "fgdsfg.com",
+//       "difhgoisdhf.com",
+//        "youtube.html"
+// ]
+// const newArr = []
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (element.endsWith (".html")) {
+//         console.log("robit")
+//         newArr.push(element)
+//     }
+// }
+// console.log(newArr)
+
+//1.9.3
+
+// const arr = [1,2,3,4,5,6,7,8,9,10]
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] += arr[i]*0.1
+// }
+// console.log(arr)
+
+//1.10.1
+
+const arr = []
+
+for (let i = 0; i < 100; i++) {
+    arr.push(Math.round(Math.random()*100))
+}
+console.log(arr)

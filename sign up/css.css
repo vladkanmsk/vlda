@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 400px;
+    height: 500px;
+
+}
+.form{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    h1{
+        font-size: 52px;
+    }
+
+
+   p{
+    color: darkgray;
+
+   }
+   a{
+    color: lightblue;
+    text-decoration: none;
+   }
+
+
+}
+.input{
+   display: flex;
+   flex-direction: column;
+   margin: 15;
+   input{
+    height: 40px;
+    
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 1em;
+    border: 4px solid transparent;
+   }
+
+}
+.button-regist{
+
+  color: white;
+   height: 45px;
+   border-radius: 3px;
+   margin-top: 30px;
+    
+    background: 
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 1em;
+    border: 4px solid transparent;
+}
+.button-regist:hover{
+background: 
+              linear-gradient(to right, darkblue, rgb(41, 6, 59)) border-box;
+    border-radius: 1em;
+    border: 4px solid transparent;
+}

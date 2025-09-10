@@ -306,9 +306,55 @@
 
 //1.10.1
 
-const arr = []
+// const arr = []
 
-for (let i = 0; i < 100; i++) {
-    arr.push(Math.round(Math.random()*100))
+// for (let i = 0; i < 100; i++) {
+//     arr.push(Math.round(Math.random()*100))
+// }
+// console.log(arr)
+
+//1.10.2
+
+
+// let num = Math.round(Math.random()*10000)
+
+// console.log(num)
+
+// num = String(num)
+
+// for (let i = num.length-1; i >= 0; i--) {
+//     const element = num[i];
+//     console.log(element)
+// }
+
+
+//1.10.3
+
+// const array = [1,2,3,4,5,6]
+
+// for (let i = 0; i < array.length; i++) {
+//     if (i%2==0) {
+//         const element = array[array.length-1-i];
+//         const element1 = array[array.length-2-i];
+//         console.log([element, element1 ])
+//     }}
+
+//1.10.4
+
+// let arr1 = [1,2,3]
+// let arr2 = [4,5,6]
+
+// console.log(arr1.concat(arr2))
+
+
+//2.1.1
+
+let num = 1230340360450640
+let array = String(num)
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    if (element == "0") {
+        console.log(i)
+        break
+    }
 }
-console.log(arr)

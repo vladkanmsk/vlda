@@ -349,12 +349,31 @@
 
 //2.1.1
 
-let num = 1230340360450640
-let array = String(num)
+// let num = 1230340360450640
+// let array = String(num)
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if (element == "0") {
+//         console.log(i)
+//         break
+//     }
+// }
+
+//2.1.2
+
+// for (let i = 0; i <= 1000; i++) {
+//     let sum = Number(String(i)[0]) + Number(String(i)[1])
+//     if (sum == 5) {
+//         console.log(i)
+// }}
+
+//2.1.3
+
+const array = [1,2,3,4,5,6,7,8,9,10,11,22,33]
+
 for (let i = 0; i < array.length; i++) {
     const element = array[i];
-    if (element == "0") {
-        console.log(i)
-        break
-    }
-}
+    if(element%2){
+array.splice(i, 1)
+}}
+console.log(array)

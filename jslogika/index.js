@@ -369,11 +369,22 @@
 
 //2.1.3
 
-const array = [1,2,3,4,5,6,7,8,9,10,11,22,33]
+// const array = [1,2,3,4,5,6,7,8,9,10,11,22,33]
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    if(element%2){
-array.splice(i, 1)
-}}
-console.log(array)
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if(element%2){
+// array.splice(i, 1)
+// }}
+// console.log(array)
+
+//2.1.4
+
+// const array = [1,2,3,4,5,6,7,8,0,0,0,0,0,0,0,0]
+// let sum = 0
+// for (let i = 0; i < array.length/2; i++) {
+//     const element = array [i];
+//     sum += element
+// }
+// console.log(sum)
+

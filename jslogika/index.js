@@ -388,3 +388,38 @@
 // }
 // console.log(sum)
 
+//2.2.1
+
+// const array = [1,2,3,-1,3,-2,-5,-0,-2,13,0,-21,23]
+
+// let sum = 0
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if (element < 0) {
+//         sum += 1
+//     }
+// }
+// console.log(sum)
+
+//2.2.2
+
+// const array = [1,2,3,-1,3,-2,-5,-0,-2,13,0,-21,23]
+
+// for (let i = array.length; i > 0; i--) {
+//     const element = array[i];
+//     if (element <= 0) {
+//         array.splice(i,1)
+//     }
+// }
+// console.log(array)
+
+//2.2.3
+
+// let str = "ABABAKEasfdasfarbawebsDABRA"
+// let newStr = str.slice(0, str.length-2) + str.slice(-1)
+// console.log(newStr)
+// // console.log(newStr1)
+// console.log(str)
+
+//2.2.4
+

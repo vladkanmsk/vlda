@@ -423,3 +423,78 @@
 
 //2.2.4
 
+// const array = [1,2,3,4,5,6]
+
+// let sum1 = 0
+// let sum2 = 0
+
+// for (let i = 0; i < array.length/2; i++) {
+//     const element = array[i];
+//     sum1 += element
+// }
+// console.log(sum1)
+// for (let i = array.length-1; i >= array.length/2; i--) {
+//     const element = array[i];
+//     sum2 += element
+// }
+// console.log(sum2)
+// console.log(sum1/sum2)
+
+//2.3.1
+
+// let word1 = "word"
+// let word2 = "drow"
+
+// let let1 = word1[word1.length-1]
+// let let2 = word2[0]
+
+// if (let1 == let2) {
+//     console.log('+++')
+// }
+
+//2.3.2
+
+// let str = "kjasfjawfak-fa=f-ajf09af-as0f0-as9f0a-sfa90isf9af0as9f-asf-"
+// let count = 0
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if(element == 0){
+//         count += 1
+//         if (count ==3 ) {
+//             console.log('количество', count)
+//             console.log(element)
+//             console.log(i)
+//         }
+//     }
+// }
+
+//2.3.3
+
+// let str = '12,34,56'
+// let sum = 0
+// let parts = str.split(",")
+// console.log(parts)
+
+// for (let i = 0; i < parts.length; i++) {
+//     const element = parts[i];
+//     let a = Number(element)
+//     console.log(a)
+//     sum += a
+// }
+// console.log(sum)
+
+//2.3.4
+
+// const obj = {
+//     year: "",
+//     month: "",
+//     day: "",
+// }
+// let str = '2025-12-31'
+// let parts = str.split("-")
+// obj.year = parts[0]
+// obj.month = parts[0]
+// obj.day = parts[0]
+// console.log(parts)
+// console.log(obj)
+

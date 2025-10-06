@@ -538,11 +538,24 @@
 
 //2.4.4
 
-let str = "abcde"
-newstr = ""
-for (let i = 0; i < str.length; i=i+2) {
-    const element = str[i];
-    newstr = str.replace(element, element.toUpperCase)
-    str = newstr
-}
-console.log(newstr)
+// let str = "abcde"
+// newstr = ""
+// for (let i = 0; i < str.length; i=i+2) {
+//     const element = str[i];
+//     newstr = str.replace(element, element.toUpperCase)
+//     str = newstr
+// }
+// console.log(newstr)
+
+//2.4.5
+
+let str = "aaa bbb ccc"
+// let newstr = str
+// for (let i = 0; i < str.length; i++) {
+//     const element = str[i];
+//     if (str[i-1] == " " || !str[i-1]) {
+//         newstr = str.replace(str[i+1], str[i+1].toUpperCase())
+//         str=newstr
+//     }
+// }
+// console.log(newstr)

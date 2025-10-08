@@ -618,12 +618,17 @@
 
 //2.6.2
 
-const arr = ["123, 456, 789"]
+const arr = ["123", "456", "789"]
 const arr1 = []
 let anew = ''
-for (let i = arr[0].length-1; i >= 0; i--) {
-    const element = arr[0][i];
-    console.log(element)
-    anew += element
+for (let i = 0; i < 3; i++) {
+    for (let j = arr[i].length-1; j >= 0; j--) {
+        const element = arr[i][j];
+        console.log(element)
+        anew += element
+    }
+
+arr1[i] = (anew)
+anew = ''   
 }
-console.log(anew)
+console.log(arr1)

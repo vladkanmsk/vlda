@@ -682,22 +682,23 @@
 
 //2.6.6
 
-let str = 'aaa bbb ccc eee fff'
-let str1 = ''
-let count = 0
-for (let i = 0; i < str.length; i++) {
-    const element = str[i];
-    if (str[i-1] == " "){
-        count += 1
-        if (count %2 == 1) {
-            console.log('asdasd')
-            // str1 += " "
-            str1 += str[i+1].toUpperCase()
-        }else{
-            str1 += str[i]
-        }
-    }else{
-        str1 += str[i]
-    }
-}
-console.log(str1)
+// let str = 'aaa bbb ccc eee fff'
+// let str1 = ''
+// let count = 0
+// for (let i = 0; i < str.length; i++) {
+//     const element = str[i];
+//     if (str[i-1] == " "){
+//         count += 1
+//         if (count %2 == 1) {
+//             console.log('asdasd')
+//             // str1 += " "
+//             str1 += str[i+1].toUpperCase()
+//         }else{
+//             str1 += str[i]
+//         }
+//     }else{
+//         str1 += str[i]
+//     }
+// }
+// console.log(str1)
+

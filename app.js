@@ -1,5 +1,5 @@
 const container = document.querySelector('#cards')
-function createCard({title}){
+function createCard({title, text}){
     const card = document.createElement('div')
     card.classList.add('card')
 
@@ -7,9 +7,13 @@ function createCard({title}){
     h3.classList.add('card_title')
     h3.textContent = title
 
-    
+    const p = document.createElement('p')
+    p.classList.add('card_title')
+    p.textContent = text
+
 
     card.appendChild(h3)
+    card.appendChild(p)
     return card
 }
 async function init() {
